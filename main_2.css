@@ -1,0 +1,7 @@
+body{
+	background-color: powderblue;
+	background-image: url(https://cdn.static-economist.com/sites/default/files/20171111_FNP504.jpg);
+	/*background-size: cover;*/
+	color: black;
+	font-family: times new roman;
+}

@@ -1,7 +1,9 @@
 body{
-	background:powderblue;
-	font-family: times new roman;
+	background: powderblue;
+	background-image: url(https://odis.homeaway.com/odis/listing/84bd6719-2153-4cb1-86d1-05021d89b8c0.f10.jpg);
+	color: white;
 }
+
 p{
 	font-family: arial;
 	color: red;
@@ -10,11 +12,12 @@ p{
 
 /* Dropdown Button */
 .dropbtn1 {
-  background-color: #4CAF50;
+  background-color: #FF69B4;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 4px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -28,9 +31,7 @@ p{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  min-width: 160px;  
 }
 
 /* Links inside the dropdown */
@@ -39,13 +40,24 @@ p{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: times new romans;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content1 a:hover {background-color: #eee;}
+.dropdown-content1 a:hover {
+	background-color: #A9A9A9;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown1:hover .dropdown-content1 {display: block;}
+.dropdown1:hover .dropdown-content1 {
+	display: block;
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+}
+
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown1:hover .dropbtn1 {background-color: #3f8e41;}
+.dropdown1:hover .dropbtn1 {
+	background-color: #FF1493;
+
+}
