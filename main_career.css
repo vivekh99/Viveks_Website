@@ -39,7 +39,11 @@ p{
 	text-decoration: none;
 }
 
-
+.car{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
 
 /* Dropdown Button */
 .dropbtn1 {

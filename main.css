@@ -15,6 +15,21 @@ p{
 	font-size: 50px;
 }
 
+.vek{
+	left: 0;
+	bottom: 75px;
+	position: absolute;
+	font-size: 30px;
+	
+}
+
+.mich{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	font-size: 30px;
+}
+
 .nav {
 	list-style: none;
 	text-decoration: none;
