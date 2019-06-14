@@ -16,18 +16,19 @@ p{
 }
 
 .vek{
-	left: 0;
-	bottom: 75px;
-	position: absolute;
+	text-align: center;
 	font-size: 30px;
+	bottom: 390px;
+	left: 650px;
+	position: absolute;
+
 	
 }
 
 .mich{
-	left: 0;
-	bottom: 0;
-	position: absolute;
+	text-align: center;
 	font-size: 30px;
+	
 }
 
 .nav {
@@ -51,7 +52,6 @@ p{
 
 
 
-/* Dropdown Button */
 .dropbtn1 {
   background-image: url(https://odis.homeaway.com/odis/listing/84bd6719-2153-4cb1-86d1-05021d89b8c0.f10.jpg);	
   padding: 16px;
@@ -63,13 +63,11 @@ p{
   color: white;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown1 {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content1 {
   display: none;
   position: absolute;
@@ -77,7 +75,7 @@ p{
   min-width: 160px;  
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content1 a {
   color: black;
   padding: 12px 16px;
@@ -86,12 +84,12 @@ p{
   font-family: times new romans;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content1 a:hover {
 	background-color: grey;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown1:hover .dropdown-content1 {
 	display: block;
 	border-radius: 0px 10px 0px 10px;
