@@ -1,11 +1,7 @@
 body{
-	background-color: powderblue;
-	background-image: url(http://www.designdeveloprealize.com/wp-content/uploads/2018/03/high-resolution-beach-images-intended-for-download-high-resolution-pictures-luxury-beach-resort-thailand.jpg);
-	/*max-width: 100%;
-	max-height: 100%;*/
-
+	background-image: url(https://www.historycolorado.org/sites/default/files/media/images/2018/pikes-peak-1273566_1920.jpg);
 	background-size: cover;
-	color: black;
+	color: white;
 	font-family: times new roman;
 }
 
