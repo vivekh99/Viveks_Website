@@ -1,11 +1,11 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-image: url(http://getwallpapers.com/wallpaper/full/4/1/6/931875-detroit-skyline-wallpaper-1920x1080-for-ipad-pro.jpg);
   background-size: cover;
-  max-width: 100%;
+  max-width: 90%;
   max-height: 100%;
-
+  width: 100%;
 }
 
 ul{
