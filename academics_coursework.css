@@ -39,6 +39,29 @@ ul li{
 	text-decoration: none;
 }
 
+.resume_btn a {
+  position: relative;
+  left: 600px;
+  top: 20px;
+  color: black;
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/01/15/54/background-967249_960_720.jpg); 
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: times new romans;
+  
+}
+
+.eye img {
+  position: relative;
+  left: 800px;
+  bottom: 0px;
+
+}
+
 
 .dropbtn1 {
   background-image: url(https://odis.homeaway.com/odis/listing/84bd6719-2153-4cb1-86d1-05021d89b8c0.f10.jpg);	
