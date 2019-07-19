@@ -8,23 +8,19 @@ body{
   width: 100%;
 }
 
-ul{
+ul {
   list-style: none;
   font-weight: bold;
-
 }
 
-ul li{
+ul li {
   font-weight: bold;
-
 }
-
 
 .nav {
 	list-style: none;
 	text-decoration: none;
 	text-align: center;
-	
 }
 
 .nav li {
@@ -49,19 +45,17 @@ ul li{
   padding-right: 40px;
   padding-bottom: 15px;
   padding-top: 15px;
-  border: 2px solid black;
+  box-shadow: 6px 6px 5px grey;
   font-size: 20px;
-  font-family: times new romans;
-  
+  font-family: times new romans; 
 }
 
 .eye img {
   position: relative;
   left: 800px;
   bottom: 0px;
-
+  top: 2px;
 }
-
 
 .dropbtn1 {
   background-image: url(https://odis.homeaway.com/odis/listing/84bd6719-2153-4cb1-86d1-05021d89b8c0.f10.jpg);	
@@ -73,7 +67,6 @@ ul li{
   background-color: none;
   color: white;
 }
-
 
 .dropdown1 {
   position: relative;
@@ -95,11 +88,9 @@ ul li{
   font-family: times new romans;
 }
 
-
 .dropdown-content1 a:hover {
 	background-color: grey;
 }
-
 
 .dropdown1:hover .dropdown-content1 {
 	display: block;
