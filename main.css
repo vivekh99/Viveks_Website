@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url(https://odis.homeaway.com/odis/listing/84bd6719-2153-4cb1-86d1-05021d89b8c0.f10.jpg);
+	background-image: url(http://www.drujokweb.com/wp-content/uploads/2015/05/1916561.jpg);
 	background-size: cover;
 	max-width: 100%;
 	max-height: 100%;
@@ -15,20 +15,10 @@ p{
 	font-size: 50px;
 }
 
-.vek{
+.name_year{
 	text-align: center;
-	font-size: 30px;
-	bottom: 390px;
-	left: 650px;
-	position: absolute;
-
-	
-}
-
-.mich{
-	text-align: center;
-	font-size: 30px;
-	
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 
 .nav {
