@@ -8,31 +8,87 @@ body {
   width: 100%;
 }
 
-
-
-textarea {
-  position: relative;
-  left: 500px;
-  width: 30%;
-  height: 150px;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-input {
-  position: relative;
-  left: 250px;
-  top: 30px;
+.input-form{
+  position: absolute;
+  top: 20%;
+  left: 40%
 }
 
-.comment_box_header {
-  left: 480px;
-  position: relative;
+.description{
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-color: whitesmoke; 
+  padding-left: 10px;
+  border: 2px solid #E9967A;
+
 }
 
-.comment_box_header1 {
-  position: relative;
-  left: 650px;
-  top: -20px;
+.name-info{
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  border: 2px solid #E9967A;
+
 }
+
+.email{
+  display: block;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  border: 2px solid #E9967A;
+}
+
+.telephone{
+  display: block;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  border: 2px solid #E9967A;
+
+}
+
+.submit-btn{
+  padding: .5rem 2.4rem;
+    background: #E9967A;
+    color: #FFF;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border-color: black;
+  cursor: pointer;
+}
+
+.aa{
+  padding: 10px 0px 10px 0px;
+}
+
+.bb{
+  padding: 10px 0px 10px 0px;
+}
+
+.cc{
+  padding: 10px 0px 10px 0px;
+}
+
+.dd{
+  padding: 10px 0px 10px 0px;
+} 
+
 
 .nav {
 	list-style: none;

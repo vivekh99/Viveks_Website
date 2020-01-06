@@ -1,61 +1,78 @@
 <!DOCTYPE html>
-<html>
+	<html>
 
-<head>
-	<link href = "feedback_page.css" rel = "stylesheet" type = "text/css"/>
-</head>
+		<head>
+			<link href = "feedback_page.css" rel = "stylesheet" type = "text/css"/>
+		</head>
 
-	<body>
-		
-		<nav class="nav">
+			<body>
+				
+				<nav class="nav">
 
-			<ul>
-				<li>
-					<div class="dropdown1">
-  						<button class="dropbtn1">
-  							<a href="index.html">Home</a>
-  						</button>
-					</div>
-				</li>
+					<ul>
+						<li>
+							<div class="dropdown1">
+		  						<button class="dropbtn1">
+		  							<a href="index.html">Home</a>
+		  						</button>
+							</div>
+						</li>
 
-				<li>
-					<div class="dropdown1">
-  						<button class="dropbtn1">About Me</button>
-  						<div class="dropdown-content1">
-    						<a href="index_pg2.html">About me</a>
-    						<a href="feedback_page.html">Contact Me</a>
-  						</div>
-					</div>
-				</li>
+						<li>
+							<div class="dropdown1">
+		  						<button class="dropbtn1">About Me</button>
+		  						<div class="dropdown-content1">
+		    						<a href="index_pg2.html">About me</a>
+		    						<a href="feedback_page.html">Contact Me</a>
+		  						</div>
+							</div>
+						</li>
 
-				<li> 
-					<div class="dropdown1">
-  						<button class="dropbtn1">Personal Projects</button>
-  						<div class="dropdown-content1">
-    						<a href="https://github.com/vivekh99/To-Do-List-to-Lock-Screen-App">To-Do List</a>
-    						<a href="https://github.com/vivekh99/Calculator-App">Calculator</a>
-    						<a href="https://github.com/vivekh99/Viveks_Website">Personal Website</a>
-    						<a href="https://github.com/vivekh99/Web_Scraping">Web Scraping</a>
-    						<a href="https://github.com/vivekh99/findmyumclass.com">FindMyUMClass.com</a>
-  						</div>
-					</div>
+						<li> 
+							<div class="dropdown1">
+		  						<button class="dropbtn1">Personal Projects</button>
+		  						<div class="dropdown-content1">
+		    						<a href="https://github.com/vivekh99/To-Do-List-to-Lock-Screen-App">To-Do List</a>
+		    						<a href="https://github.com/vivekh99/Calculator-App">Calculator</a>
+		    						<a href="https://github.com/vivekh99/Viveks_Website">Personal Website</a>
+		    						<a href="https://github.com/vivekh99/Web_Scraping">Web Scraping</a>
+		    						<a href="https://github.com/vivekh99/findmyumclass.com">FindMyUMClass.com</a>
+		  						</div>
+							</div>
 
-				</li>
-				<li>
-					<div class="dropdown1">
-  						<button class="dropbtn1">Academics</button>
-  						<div class="dropdown-content1">
-  							<a href="academics_coursework.html">Coursework/Resume</a>
-  						</div>
-					</div>
-				</li>
-			</ul>
+						</li>
+						<li>
+							<div class="dropdown1">
+		  						<button class="dropbtn1">Academics</button>
+		  						<div class="dropdown-content1">
+		  							<a href="academics_coursework.html">Coursework/Resume</a>
+		  						</div>
+							</div>
+						</li>
+					</ul>
 
-		</nav>
+				</nav>
+				
+					<div class="input-form">
+						
+						<form id="searchForm" class="search-fields" action="feedback_form.php" method="post">
 
-
-		<h3 class="comment_box_header">PAGE UNDER CONTRUCTION</h3>
-		
-
-	</body>
-</html>
+							<div class="aa">
+								<input class="name-info" type="text" placeholder="Name" name="name_info">
+							</div>
+							<div class="bb">
+									<input class="email "type="text" placeholder="Email" name="email">
+							</div>
+							<div class="cc">
+									<input class="telephone" type="number" placeholder="Phone Number" name="phone_number">
+							</div>
+							<div class="dd">
+									<textarea class="description" placeholder="Please enter the description of the job" name="description"></textarea>
+							</div>
+						
+						<input class="submit-btn" type="submit" name="submitBtn" value="Submit">
+						
+					</form>
+				</div>
+			</body>
+	</html>
