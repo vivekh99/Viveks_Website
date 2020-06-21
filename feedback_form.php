@@ -18,7 +18,7 @@
 			echo "mail sent!";
 		}
 		else{
-			echo "FAILURE";
+			echo "message failed to send, please try again";
 		}
 	}
 ?>
